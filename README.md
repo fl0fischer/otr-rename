@@ -17,7 +17,7 @@
 The filename format can be modified in `otr_rename.py` (search for `#DEFINE FILENAME FORMAT` comment).
 
 **Requirements:**
-- python>=3.9
+- python>=3.8
 - [requests](https://pypi.org/project/requests/)
 - [beautifulsoup4](https://github.com/waylan/beautifulsoup)
 - [IMDbPY](https://github.com/alberanid/imdbpy) (only if `--method` is used)

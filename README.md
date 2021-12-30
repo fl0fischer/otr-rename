@@ -22,5 +22,5 @@ The filename format can be modified in `otr_rename.py` (search for `#DEFINE FILE
 - [beautifulsoup4](https://beautiful-soup-4.readthedocs.io/en/latest/)
 - [IMDbPY](https://github.com/alberanid/imdbpy) (only if `--method` is used)
 
-**Installing (not required):**
+**Installing (only required for tests):**
 `pip install -e .`

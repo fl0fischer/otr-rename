@@ -19,7 +19,7 @@ The filename format can be modified in `otr_rename.py` (search for `#DEFINE FILE
 **Requirements:**
 - python>=3.8
 - [requests](https://pypi.org/project/requests/)
-- [beautifulsoup4](https://github.com/waylan/beautifulsoup)
+- [beautifulsoup4](https://beautiful-soup-4.readthedocs.io/en/latest/)
 - [IMDbPY](https://github.com/alberanid/imdbpy) (only if `--method` is used)
 
 **Installing (not required):**

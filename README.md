@@ -9,7 +9,7 @@
   - `python otr_rename.py --method imdb_local "C:\Path\to\file\directory"` (get official (local) movie name from [IMDB](https://imdb.com/))
   - `python otr_rename.py --method imdb_closest "C:\Path\to\file\directory"` or `python otr_rename.py --method imdb_global "C:\Path\to\file\directory"` (get official (global) movie name from [IMDB](https://imdb.com/))
 - Series:
-  - `python otr_rename.py --series "some TV series title" "C:\Path\to\directory\with\episodes"` → sets episode title and season/episode ID for each filename by querying the [fernsehserien.de](https://www.fernsehserien.de/) database
+  - `python otr_rename.py --series "some TV series title (e.g., 'Die Simpsons')" "C:\Path\to\directory\with\episodes"` → sets episode title and season/episode ID for each filename by querying the [fernsehserien.de](https://www.fernsehserien.de/) database
 - Other commands:
   - help: `python otr_rename.py -h`
   - dry-run (no renaming): `python otr_rename.py -n ...`

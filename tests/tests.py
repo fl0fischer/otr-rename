@@ -1,6 +1,5 @@
 from otr_rename import otr_parser
 from pathlib import Path
-import os
 
 def test_movies(title_update_method=None):
 
@@ -12,9 +11,7 @@ def test_movies(title_update_method=None):
     for filename in filename_list:   #create test files
         Path(filename).touch()
 
-    otr_filenames = filename_list  #[os.path.join(os.path.abspath(os.getcwd()), filename) for filename in filename_list]
-
-    for otr_filename in otr_filenames:
+    for otr_filename in filename_list:
         otr.rename(otr_filename)
 
     for filename in filename_list:   #delete test files
@@ -32,9 +29,7 @@ def test_series():
     for filename in filename_list:   #create test files
         Path(filename).touch()
 
-    otr_filenames = filename_list  #[os.path.join(os.path.abspath(os.getcwd()), filename) for filename in filename_list]
-
-    for otr_filename in otr_filenames:
+    for otr_filename in filename_list:
         otr.rename(otr_filename)
 
     for filename in filename_list:   #delete test files

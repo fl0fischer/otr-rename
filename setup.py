@@ -8,6 +8,6 @@ setup(name='otr_rename',
       license='LICENSE',
       description='This python script allows to easily rename movies and tv series episodes obtained from OnlineTVRecorder in batch mode.',
       long_description=open('README.md').read(),
-      python_requires='>= 3.9',
+      python_requires='>= 3.8',
       install_requires=['requests', 'beautifulsoup4', 'imdbpy']
 )
